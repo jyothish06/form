@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>keyboard Maestro Custom HTML Prompt--Exampion by JMichael TX</title>
+	<style>
+		body
+		{
+			background-color: burlywood;
+		}
+	</style>
+</head>
+<body>
+	<table cellspacing="2px">
+	<h1 align="center"><i>KM custom HTML Form Example Using AppleScript</h1></i>
+	<h2 align="center">(by JMichaelTX)</h2>
+	<form>
+		<table border="2px" cellspacing="0px">
+			<tr>
+				<td><label><b>Name :</b></label></td></label></td>
+				<td><input type="text"/></td>
+			</tr>
+			<tr>
+				<td><label><b>Email :</b></label></td>
+				<td><input type="text"/></td>
+			</tr>
+			<tr>
+				<td><label><b>password</b></label></td>
+				<td><input type="password"/></td>
+			</tr>
+			<tr>
+				<td><label><b>Approval Required : </b><br>
+				 Click on the button or text to check/uncheck</label></td>
+			    <td><input type="checkbox" name="">Do You approve?</td>				
+			</tr>
+			<tr>
+				<td><label><b>Pick Your Favorite :</b> <br>
+				  Click on the button or text to select.</label></td>
+				<td>
+				<input type="radio" name="a">Choice A</input><br>
+				<input type="radio" name="a">Choice B</input><br>
+				<input type="radio" name="a">Choice C</input>
+				</td>
+			</tr>
+			<tr>
+				<td><label><b>Popup Menu</b></label></td>
+				<td>
+					<select>
+						<option>Texas -- TX</option>
+					    <option>California -- CA</option>
+						<option>Colorado -- CO</option>
+						<option>Connecticut -- CN</option>
+						<option>Dalifornia -- DA</option>
+						<option>Dolorado -- DO</option>
+						<option>Switzerland -- SL</option>
+						<option>New Jersy -- NJ</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label><b>List</b><br>
+				 Setup options:<br>
+				    .Number of rows to display<br>
+				    .Allow Multi-Select</label></td>
+				<td>
+					<textarea rows="4"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td><label><b>Field Ignored by KM</b></label></td>
+				<td><input type="text"/></td>
+			</tr>
+			<tr>
+				<td><label><b>Text Area</b></label></td>
+				<td><textarea rows="2" cols="60"></textarea></td>
+			</tr>
+
+		</table>
+		<tr>
+			<td>
+				<button>save</button>
+				<button>cancel</button>
+				<button>resize</button>
+			</td>
+		</tr>
+	</form>
+
+
+</body>
+</html>
